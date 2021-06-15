@@ -6,5 +6,45 @@
 
 a{
     text-decoration:none;
-    
+    font-weight:bold;
+}
+a:link, a:visited{
+    color:#FFF;
+    padding: 8px 12px;
+}
+
+a:hover{
+    color:#f7b600;
+    background-color:#FFF;
+}
+
+body{
+    background-color: #e6e6e6;
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
+     'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+h1{
+    color: #4e4e4e;
+    font-size:2.5em;
+}
+
+#cabecalho{
+    background-color: #f7b600;
+    padding:15px;
+    text-align:center;
+}
+
+#logo{
+    padding:10px;
+}
+
+#menu{
+    padding:10px;
+}
+
+.titulo{
+    color: white;
 }
