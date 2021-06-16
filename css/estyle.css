@@ -8,14 +8,24 @@ a{
     text-decoration:none;
     font-weight:bold;
 }
-a:link, a:visited{
+#cabecalho a:link,#cabecalho a:visited{
     color:#FFF;
     padding: 8px 12px;
 }
 
-a:hover{
+#cabecalho a:hover{  
     color:#f7b600;
     background-color:#FFF;
+    text-decoration: none;
+}
+a:link,a:visited{
+    color:#f7b600;
+}
+
+a:hover{  
+    color:#f7b600;
+    background-color:#FFF;
+    text-decoration:underline;
 }
 
 body{
@@ -29,6 +39,21 @@ body{
 h1{
     color: #4e4e4e;
     font-size:2.5em;
+}
+
+h2{
+    color: #f7b600;
+}
+
+h3{
+    background-color: #CCC;
+    color: #565656;
+    text-align: center;
+    padding: 5px;
+}
+
+hr{
+    clear:both;
 }
 
 #cabecalho{
@@ -49,11 +74,10 @@ h1{
     background: #FFF;
     width: 920px;
     margin: 0 auto;
+    padding:15px;
 }
 
-#area-postagens, #area-lateral{
-    background-color: #f7b600;
-}
+
 
 #area-postagens{
     width: 660px;
@@ -78,6 +102,28 @@ h1{
     background-color:#FFF;
     padding:20px;
     margin-bottom: 20px;
+
+}
+
+.data-postagem{
+    font-size:0.8em;
+    font-weight: bolder;
+    font-style: italic;
+    padding:5px;
+    margin:5px;
+
+}
+
+.conteudo-lateral{
+    background-color: #FFF;
+    padding:10px;
+    margin-bottom:10px;
+}
+
+.postagem-lateral{
+    font-size: 0.8em;;
+    padding:5px 5px 0px 5px;
+    border-bottom: 2px #CCC solid;
 }
 
 .titulo{
